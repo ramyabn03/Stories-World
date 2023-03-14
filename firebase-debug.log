@@ -1,0 +1,35 @@
+[debug] [2022-08-25T15:15:11.870Z] ----------------------------------------------------------------------
+[debug] [2022-08-25T15:15:11.872Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js hosting:disable
+[debug] [2022-08-25T15:15:11.873Z] CLI Version:   11.8.0
+[debug] [2022-08-25T15:15:11.874Z] Platform:      win32
+[debug] [2022-08-25T15:15:11.874Z] Node Version:  v16.16.0
+[debug] [2022-08-25T15:15:11.879Z] Time:          Thu Aug 25 2022 20:45:11 GMT+0530 (India Standard Time)
+[debug] [2022-08-25T15:15:11.879Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-25T15:15:11.988Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-25T15:15:11.989Z] > authorizing via signed-in user (ramya.bn@accubits.com)
+[debug] [2022-08-25T15:15:11.989Z] [iam] checking project react-http-61ca9 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-08-25T15:15:11.992Z] > refreshing access token with scopes: []
+[debug] [2022-08-25T15:15:11.995Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-08-25T15:15:11.995Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-08-25T15:15:18.497Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-08-25T15:15:18.498Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-08-25T15:15:18.516Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/react-http-61ca9:testIamPermissions [none]
+[debug] [2022-08-25T15:15:18.516Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/react-http-61ca9:testIamPermissions x-goog-quota-user=projects/react-http-61ca9
+[debug] [2022-08-25T15:15:18.517Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/react-http-61ca9:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-08-25T15:15:25.294Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/react-http-61ca9:testIamPermissions 200
+[debug] [2022-08-25T15:15:25.294Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/react-http-61ca9:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-08-25T15:15:25.296Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/react-http-61ca9 [none]
+[debug] [2022-08-25T15:15:31.007Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/react-http-61ca9 200
+[debug] [2022-08-25T15:15:31.007Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/react-http-61ca9 {"projectId":"react-http-61ca9","projectNumber":"1094947209681","displayName":"react-http","name":"projects/react-http-61ca9","resources":{"hostingSite":"react-http-61ca9","realtimeDatabaseInstance":"react-http-61ca9-default-rtdb"},"state":"ACTIVE","etag":"1_0fd16942-59aa-4b75-a628-1df0c9c1d509"}
+[debug] [2022-08-25T15:15:37.918Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/sites/react-http-61ca9/releases [none]
+[debug] [2022-08-25T15:15:37.919Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/sites/react-http-61ca9/releases {"type":"SITE_DISABLE"}
+[debug] [2022-08-25T15:15:44.545Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/sites/react-http-61ca9/releases 200
+[debug] [2022-08-25T15:15:44.545Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/sites/react-http-61ca9/releases {"name":"sites/react-http-61ca9/releases/1661440543815434","type":"SITE_DISABLE","releaseTime":"2022-08-25T15:15:43.815434491Z","releaseUser":{"email":"ramya.bn@accubits.com","imageUrl":"https://lh3.googleusercontent.com/a-/AFdZucrJdZm-8eFWV03MtmHTE_dQsBKLwC4IoEFrYMPv"}}
+[info] +  Hosting has been disabled for react-http-61ca9. Deploy a new version to re-enable. 
+[debug] [2022-08-25T15:15:53.082Z] Error: Timed out.
+    at Timeout.<anonymous> (C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[error] 
+[error] Error: An unexpected error has occurred.

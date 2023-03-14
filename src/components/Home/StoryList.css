@@ -1,0 +1,26 @@
+
+  td, th, tr {
+    border: 2px solid #ccc;
+    padding: 8px;
+    width: 10%;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  th{
+    background-color: #576F72;
+    color: #fff;
+  }
+
+  
+  tr:hover{
+    background-color: #94B49F;
+    color: #fff;
+  }
+
+  
+
+
+
+
+  

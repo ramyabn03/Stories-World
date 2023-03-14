@@ -1,0 +1,35 @@
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+
+  .storyDetails{
+    margin-top: 10%;
+  }
+  
+  .btntoHome button{
+    align-items: center;
+    margin-top: 10%;
+  }
+
+  .details-sec{
+    align-items: center;
+    text-align: left;
+  }
+
+  h4{
+    font-size: 15px;
+  }
+
+  p{
+    margin-left: 3.5%;
+    margin-top: -2%;;
+    font-size: 14px;
+    color: #73777B;
+    text-align: justify;
+  }
+  hr{
+    margin-bottom: 6%;
+    margin-top: -1%;
+  }
